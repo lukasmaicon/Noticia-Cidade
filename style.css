@@ -690,6 +690,26 @@ h5 {
     height: 230px;
   }
 
+  .primeiro-conteudo-noticias img {
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+    width: 100px;
+  }
+  
+  .primeiro-conteudo-noticias h3 {
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+  }
+
+  .primeiro-lista-noticias li p {
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+    font-size: 14px;
+  }
+
   .segundo-home {
     width: 100%;
     margin-top: 20px;
@@ -698,6 +718,26 @@ h5 {
   .segundo-conteudo img {
     width: 97%;
     height: 230px;
+  }
+
+  .segundo-conteudo-noticias img {
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+    width: 100px;
+  }
+  
+  .segundo-conteudo-noticias h3 {
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+  }
+
+  .segundo-lista-noticias li p {
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+    font-size: 14px;
   }
 
   .terceiro-home {
