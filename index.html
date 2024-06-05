@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon"  href="./img/favicon.png"/>
+    <title>Notícias Cidade</title>
+</head>
+<body class="home">
+    <div class="logo">
+        <img src="./img/logo.png" alt="logo">
+    </div>
+    <header>
+        <nav class="navegacao">
+            <ul class="nav-bar">
+                <li><a class="home" href="index.html">Home</a></li> 
+                <li><a class="brasil" href="brasil.html">Brasil</a></li>
+                <li><a class="saude" href="saude.html">Saúde</a></li>
+                <li><a class="fotos" href="fotos.html">Fotos</a></li>
+            </ul>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+                </div>
+        </nav>
+            <div class="mobile-menu">
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a class="brasil" href="brasil.html">Brasil</a></li>
+                <li><a class="saude" href="saude.html">Saúde</a></li>
+                <li><a class="fotos" href="fotos.html">Fotos</a></li>
+            </div>   
+    </header>   
+    
+    <div class="container-home">  
+        <div class="conteudo-home">
+         
+            <div class="primeiro-home">
+                <h1>Última entrevista</h1>
+                <div class="primeiro-conteudo">
+                    <h2>DESENVOLVEDORES PYTHON</h2>
+                    <img src="./img/Computação.jpg" title="Computação">
+                    <div class="primeiro-link">
+                    <p>
+                    Python são cruciais na transformação digital, desenvolvendo soluções inovadoras para automação, aplicativos web..
+                    </p>
+                    <a href="#">Ler mais!</a> 
+                </div>
+            </div>
+
+            <div class="primeiro-conteudo-noticias">
+                <h1>Mundo</h1>
+                <div class="primeiro-noticias-fundo">
+                    <ul class="primeiro-lista-noticias">
+                    <li>
+                        <a href="">
+                            <img src="./img/Japao.jpg" title="Japão" width="80">
+                            <h3>LANÇAMENTO</h3>
+                            <P>Japão anuncia novo pacote...</P>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/Rio de Janeiro.jpg" title="Rio de Janeiro" width="80">
+                            <h3>BRASIL RJ</h3>
+                            <P>Prefeitura lança Plano...</P>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/Nem York.jpg" title="Nem York" width="80">
+                            <h3>NEW YORK</h3>
+                            <P>Americanos em festa...</P>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/Londres.jpg" title="Londres" width="80">
+                            <h3>LONDRES</h3>
+                            <P>Armas de choque em Londres...</P>
+                        </a>
+                    </li>
+                    </ul> 
+                </div>
+            </div>
+            </div>
+        
+            <div class="segundo-home">
+                <h1>Destaque</h1>
+                <div class="segundo-conteudo">
+                    <h2>NOVA LEGISLAÇÃO</h2>
+                    <img src="./img/Taxistas.jpg" title="Taxistas">
+                    <div class="segundo-link">
+                    <p>
+                        Legislação recente altera regras de circulação para táxis em áreas de alto tráfego..
+                    </p>
+                    <a href="#">Leia mais!</a>
+                </div>
+            </div>
+
+            <div class="segundo-conteudo-noticias">
+                <h1>Notícias recentes</h1>
+                <div class="segundo-noticias-fundo">
+                    <ul class="segundo-lista-noticias">
+                    <li>
+                        <a href="">
+                            <img src="./img/tecnologia.jpg" width="80" title="Tecnologia">
+                            <h3>TECNOLOGIAS</h3>
+                            <P>Programadores no mercado...</P>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/mundo.jpg" width="80" title="Mundo">
+                            <h3>PARLAMENTO</h3>
+                            <P>Aprova carteira assinada...</P>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/Futebol.jpg" width="80" title="Futebol">
+                            <h3>FUTEBOL</h3>
+                            <P>Futebol em alta no EUA...</P>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/Energia.jpg" width="80" title="Energia">
+                            <h3>ENERGIA</h3>
+                            <P>Aplicativo trás economia...</P>
+                        </a>
+                    </li>
+                </div>
+            </div>
+            </div>
+                    
+            <div class="terceiro-home">
+                <h1>Entrevistas</h1>
+                <div class="terceiro-conteudo">
+                    <ul class="nav-terceiro">
+                        <li><a href="#">José Almeida</a></li>
+                        <li><a href="#">Adriano Paiva</a></li>
+                        <li><a href="#">Ana Carolina</a></li>
+                        <li><a href="#">Maria Silva</a></li>
+                        <li><a href="#">Ana Maria</a></li>
+                        <li><a href="#">Julio Weiss</a></li>
+                    </ul>
+                </div>
+            <div>
+                
+            <div class="terceiro-caixa" >
+                <h1>News</h1>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" class="email"    placeholder="E-mail"> 
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+    </div>
+    </div>
+
+    <div class="container-rodape" style="clear: both;">
+        <div class="rodape">
+            Todos os direitos reservados 
+        </div>
+    </div>
+  
+<script src="js/script.js"></script>
+</body>
+</html>
